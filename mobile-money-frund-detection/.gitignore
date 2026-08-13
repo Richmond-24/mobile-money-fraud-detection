@@ -4,6 +4,12 @@ __pycache__/
 .venv/
 venv/
 .env
+.pytest_cache/
+.coverage
+
+# IDE and editor
+.vscode/
+.idea/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -17,6 +23,11 @@ data/raw/*.csv
 *.joblib
 *.h5
 *.keras
+
+# Large temporary files
+*.tmp
+*.bak
+*.log
 
 # OS
 .DS_Store
